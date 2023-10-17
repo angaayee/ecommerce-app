@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" >
+    <title>Watches</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../css/overall.css">
+    <link rel="stylesheet" href="./../../css/main.css">
+    <link rel="stylesheet" href="./../../css/btn.css">
+    <link rel="stylesheet" href="./../../css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+      
+     
+      
+      
+  </head>
+  <body>
+
+   <div class="header">
+   <a href="#" class="logo"> <i class="fas fa-shopping-bag"></i>  Luxito shopping </a>
+  <div class="header-right">
+    <a class="active" href="./../../index.html">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="./../../login.html">Log Out</a>
+  </div>
+</div>
+<nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+    <div class="row">
+
+        <div class="col">
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
+        </div>
+
+    </div>
+</nav>
+<div class="container">
+   <section class="section featured">
+      <div class="title">
+       <h1> Watches</h1>
+      </div>
+    <div class="row">
+      <div class="col col-md-3">
+        <div class="card" style="width: 20rem;"><header class="headerdetails">
+  <img class="card-img-top"  src="./../../images/men/2021.jpg" alt=""></header>
+  <div class="card-block"><footer class="details">
+    <h4 class="card-title" align="center"><a href="menwatchesdescription.html">Analogue-Watch</a></h4> 
+     <p class="card-text" align="center">Rs.400</p>
+   <center> <a href="#" data-name="Analogue-Watch" data-price="400" class="add-to-cart btn btn-primary">Add to cart</a></center></footer>
+  </div>
+</div>
+      </div>
+       <div class="col col-md-3">
+        <div class="card" style="width: 20rem;"><header class="headerdetails">
+  <img class="card-img-top"  src="./../../images/men/2022.jpg" alt=""></header>
+  <div class="card-block"><footer class="details">
+    <h4 class="card-title" align="center"><a href="menwatchesdescription1.html">Quartz-Watch</a></h4> 
+    <p class="card-text" align="center">Rs.550</p>
+   <center> <a href="#" data-name="Quartz-Watch" data-price="550" class="add-to-cart btn btn-primary">Add to cart</a></center></footer>
+  </div>
+</div>
+      </div>
+       <div class="col col-md-3">
+        <div class="card" style="width: 20rem;"><header class="headerdetails">
+  <img class="card-img-top"  src="./../../images/men/2023.jpg" alt=""></header>
+  <div class="card-block"><footer class="details">
+    <h4 class="card-title" align="center"><a href="menwatchesdescription2.html">Luxury-Watch</a></h4> 
+     <p class="card-text" align="center">Rs.560</p>
+   <center> <a href="#" data-name="Luxury-Watch" data-price="560" class="add-to-cart btn btn-primary">Add to cart</a></center></footer>
+  </div>
+</div>
+      </div>
+        <div class="col col-md-3">
+        <div class="card" style="width: 20rem;"><header class="headerdetails">
+  <img class="card-img-top"  src="./../../images/men/2024.jpg" alt=""></header>
+  <div class="card-block"><footer class="details">
+    <h4 class="card-title" align="center"><a href="menwatchesdescription3.html">Digital sports-Watch</a></h4> 
+     <p class="card-text" align="center">Rs.650</p>
+   <center> <a href="#" data-name="Digital sports-Watch" data-price="650" class="add-to-cart btn btn-primary">Add to cart</a></center></footer>
+  </div>
+</div>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: Rs <span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="order" >Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                 <div class="footer-center">
+                    <h3>FOLLOW US ON <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="20px" width="20px"></h3>
+                    <a href="#">LUXITO_shop</a>
+                    <a href="#">LUXITO Door Delivery Service</a>
+                    <a href="#">LUXITO Online </a>
+                    <a href="#">LUXITO Feeds</a>
+                    </div>
+                
+                <div class="footer-center">
+                    <h3>FOLLOW US ON <img src="data:image/png;base64,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" height="20px" width="20px"></h3>
+                    <a href="#">LUXITO_shop</a>
+                    <a href="#">LUXITO Membership</a>
+                    <a href="#">LUXITO Online </a>
+                    <a href="#">LUXITO Feeds</a>
+                </div>
+                <div class="footer-center">
+                    <h3>SHOPS</h3>
+                    <a href="#">LUXITO Foods,Mumbai</a>
+                    <a href="#">LUXITO Trends,Karnataka</a>
+                    <a href="#">LUXITO Shopnet,India,Tamilnadu</a>
+                    <a href="#">LUXITO cakes,Tamilnadu</a>
+                   
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        42 Capital House, Dreammy street, 7131Captoville, Salem
+                    </div>
+                    <div>
+                        <span>
+                            <i class="far fa-envelope"></i>
+                        </span>
+                        luxito@gmail.com
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        92943 95958
+                    </div>
+                    <div>
+                        <span>
+                            <i class="far fa-paper-plane"></i>
+                        </span>
+                        SalemCity, India
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+   
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script  src="./../../js/cart.js"></script>
+     <script  src="./../../js/order.js"></script>
+     <script  src="./../../js/logout.js"></script>
+
+   
+</body>
+
+</html>

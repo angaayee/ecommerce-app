@@ -1,0 +1,16 @@
+
+.checkout a:link, a:visited {
+  background-color: #4b0a7d ;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.checkout a:hover, a:active {
+  background-color:  green;
+  color:white;
+  text-decoration: none;
+}
+

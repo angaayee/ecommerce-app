@@ -1,0 +1,33 @@
+body
+    {
+	   margin:0px;
+	   background: rgb(2,0,36);
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,53,136,1) 0%, rgba(77,120,205,1) 0%, rgba(21,42,143,1) 0%, rgba(12,65,168,1) 0%, rgba(74,0,71,1) 0%, rgba(28,2,98,1) 0%, rgba(232,11,239,1) 0%, rgba(111,13,156,1) 0%, rgba(210,5,252,1) 0%, rgba(239,11,154,1) 0%, rgba(39,5,133,1) 0%, rgba(162,9,118,1) 100%);
+	   color:white;
+	   font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    #main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto; 
+    border-radius:5px; padding-left:10px; margin-top:100px; border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; padding-top:20px;
+    }
+    
+    #main table{font-family:"Comic Sans MS", cursive;}
+  
+    #main .tb{height:28px; width:230px; border:1px solid #f26724; color:black; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;}
+    
+    #main .tb:focus{height:28px; border:1px solid #f26724; outline:none; border-left:5px solid #f7f7f7;}
+
+    
+    #main .btn{width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid #f26724; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #f26724; letter-spacing: 1px; 
+    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+  
+    #main .btn:hover{background-color:#f26724; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+    -webkit-transition: 1s; -moz-transition: 1s; transition: 1s; }
+
+    a{
+        color: white;
+        text-decoration: none;
+font-size: 21px;
+    }
